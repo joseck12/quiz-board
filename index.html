@@ -2,11 +2,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8">
     <title>quizboard</title>
   </head>
   <body>
+    <div class="container">
     <<h1><b>Javascript Quiz</b></h1>
     <p>Read carefully through each question below an select a suitable answer from the multiple choices provided.<br>Ensure that you have answered <b>ALL</b> the questions</p>
 <ol>
@@ -16,22 +18,28 @@
   <input type="radio" name="choice" value="Konrad Zuse">Konrad Zuse<br>
   <input type="radio" name="choice" value="Corrado Bohm">Corrado Bohm<br>
   <input type="radio" name="choice" value="Alonzo Church">Alonzo Church
+</form>
   <p><li>Javascript was first released in the year____________.</li></p><br>
     <form>
   <input type="radio" name="choice" value="2007">2007<br>
   <input type="radio" name="choice" value="2007">2007<br>
   <input type="radio" name="choice" value="2018">2018<br>
   <input type="radio" name="choice" value="1995">1995
+</form>
 <p><li>Javascript is a ___________ language.</li></p><br>
 <form>
   <input type="radio" name="choice" value="Application">Application<br>
   <input type="radio" name="choice" value="Scripting">Scripting<br>
   <input type="radio" name="choice" value="Programming">Programming<br>
   <input type="radio" name="choice" value="None of the above">None of the above
+</form>
   <p><li>Javascript is also known as ECMAscript.</li></p><br>
       <form>
   <input type="radio" name="choice" value="True">True<br>
   <input type="radio" name="choice" value="False">False
-
+</form>
+<button onclick="submitAnswer()">Submit Answer</button>
+</div>
+<script src="js/scripts.js" type="text/javascript"></script>
   </body>
 </html>

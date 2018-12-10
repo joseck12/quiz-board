@@ -1,7 +1,25 @@
-body{
-  background-color: #85C1E9;
-}
-h1{
+.header{
   text-align: center;
   text-decoration: underline;
+  color: red;
+  border-radius: 10px;
+  padding: 1 0 1 0;
+}
+.body{
+  text-align: center;
+  border-style: solid;
+  border: 3 3 3 3;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.quiz{
+  font-size: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  border: 3 3 3 3;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

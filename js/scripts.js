@@ -1,25 +1,20 @@
-function onSubmit() {
-  var score = 0;
-  var numOfQuestions = 5;
-  var ansArr = ['a', 'c', 'd', 'a', 'a', ];
+$(document).ready(function(){
+ $("form#query").submit(function(event){
 
-  var q1 = $(document).forms[quiz][q1].value;
-  var q2 = document.forms[quiz][q2].value;
-  var q3 = document.forms[quiz][q3].value;
-  var q4 = document.forms[quiz][q4].value;
-  var q5 = document.forms[quiz][q5].value;
+event.preventDefault();
+   var q1 = $("input:radio[name=q1]:checked").val();
+   var q2 = $("input:radio[name=q2]:checked").val();
+   var q3 = $("input:radio[name=q3]:checked").val();
+   var q4 = $("input:radio[name=q4]:checked").val();
+   var q5 = $("input:radio[name=q5]:checked").val();
+   var result = parseInt(q1) + parseInt(q2) +
+   parseInt(q3) + parseInt(q4) + parseInt(q5);
+   $("#result").text("You Score: " + result + "%");
 
-  for (var i = 1; i <= numOfQuestions; i++) {
-    if (eval('q' + i) == '') {
-      alert("You missed question number" + i);
-    }
-    if (eval('q' + i) == ansArr[i - 1]) {
-      score++;
-    }
-  }
-
-  var results = document.getElementById('results')
-  results.innerHTML = "<h2>Your Score Is " + score + " points out of " + numOfQuestions + "</h2>"
-  alert('Your score is ' + score + ' out of ' + numOfQuestions);
-}
-}
+   $("button").click(function(){
+     $("#result-showing").toggle();
+   })
+   $("form#query").show();
+   $("#result").show();
+ });
+});

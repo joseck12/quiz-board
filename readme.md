@@ -16,7 +16,6 @@ This web page was built using HTML, CSS,bootstrap and JavaScript.
 
 Target Audience-Anyone.
 
-
 ## Project setup installation
 
 1.On GitHub, navigate to the main page of the repository.
@@ -34,7 +33,8 @@ Target Audience-Anyone.
 7.Press Enter. Your local clone will be created.
 
 ## Behaviour driven development
-* The program should return the score attained out of the total score:
+
+-   The program should return the score attained out of the total score:
 
 **Input**: Read the question and select from either choice [a,b,c,d]
 
@@ -42,10 +42,10 @@ Target Audience-Anyone.
 
 ## Live link
 
-https://github.com/joseck12/quiz-board
-
+<https://github.com/joseck12/quiz-board>
 
 ## License
+
 MIT licence
 
 Copyright <YEAR> <COPYRIGHT HOLDER>

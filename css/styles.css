@@ -1,4 +1,4 @@
-.header{
+.header {
   text-align: center;
   text-decoration: underline;
   color: red;
@@ -8,7 +8,7 @@
   font-size: 15px;
 }
 
-.body{
+.body {
   text-align: center;
   border-style: solid;
   border: 2 2 2 2;
@@ -18,7 +18,7 @@
   font-size: 15px;
 }
 
-.question{
+.question {
   font-size: 15px;
   border-style: solid;
   border-radius: 20px;
@@ -30,6 +30,7 @@
   margin-bottom: 10px;
   background-color: blue;
 }
-h2{
+
+h2 {
   font-size: 15px:
 }

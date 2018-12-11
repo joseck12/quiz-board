@@ -34,7 +34,7 @@ Target Audience-Anyone.
 7.Press Enter. Your local clone will be created.
 
 ## Behaviour driven development
-**The program should return the score attained out of the total score:
+* The program should return the score attained out of the total score:
 
 **Input**: Read the question and select from either choice [a,b,c,d]
 

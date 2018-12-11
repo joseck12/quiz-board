@@ -34,11 +34,11 @@ Target Audience-Anyone.
 7.Press Enter. Your local clone will be created.
 
 ## Behaviour driven development
-* The program should return the score attained out of the total score:
+**The program should return the score attained out of the total score:
 
-**Input**: read the question and select from either choice [a,b,c,d]
+**Input**: Read the question and select from either choice [a,b,c,d]
 
-**Output**: The program will analyse the input data and compile attained score out of total score and display to the user.
+**Output**: The program will analyze the input data and compile attained score out of total score and display to the user.
 
 ## Live link
 

@@ -9,14 +9,17 @@
 </head>
 <body>
   <div class="container">
+    <div class="jumbotron">
   <div class="header">
     <h1><b>Javascript Quiz</b></h1>
     <div id="result"
     <h2>Your score is: Not Submitted</h2>
     </div>
   </div>
+  </div>
   <div class="body">
     <form name="quiz" onsubmit="return onSubmit ()">
+      <div class="well">
       <div class="question">
         <h2>Javascript was designed by____________.</h2>
         <input type="radio" name="q1" value="a">a.Brendan Eich<br>
@@ -52,7 +55,9 @@
         <input type="radio" name="q5" value="c">c.None of the above<br>
         <input type="radio" name="q5" value="d">d.All the above<br>
       </div>
+    </div>
       <button type="submit">Submit Test</button>
+
   </div>
 </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

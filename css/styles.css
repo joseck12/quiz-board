@@ -3,7 +3,7 @@
   color: red;
   border-radius: 20px;
   padding: 1 0 1 0;
-  background-color: #BDC3C7  ;
+  background-color: #BDC3C7;
   font-size: 5px;
 }
 
@@ -13,7 +13,7 @@
   border: 2 2 2 2;
   border-radius: 20px;
   margin-top: 5px;
-  background-color: #E5E7E9  ;
+  background-color: #E5E7E9;
   font-size: 5px;
 }
 
@@ -27,12 +27,13 @@
   margin-right: 20%;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #E5E7E9  ;
+  background-color: #E5E7E9;
 }
 
 h2 {
   font-size: 3px:
 }
+
 h1 {
   text-decoration: underline;
 }

@@ -39,6 +39,8 @@ Target Audience-Anyone.
 **Input**: Read the question and select from either choice [a,b,c,d] then click the result button at the bottom
 
 **Output**: The program will analyze the input data and compile attained score out of total score and display to the user.
+**Input**: If user does not select anything but presses the score button.
+**Output**: They get a NaN response.
 
 ## Live link
 

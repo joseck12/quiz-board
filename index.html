@@ -11,105 +11,67 @@
 <body>
   <div class="container">
     <div class="header">
-  <h1><img src="images/js.png" height=50 alt="js"><br>JavaScript Quiz</h1>
-  <h2>Read carefully through all the given questions and select a suitable answer from the multiple choices given below each question.<br>Ensure to answer <b>ALL</b> questions.</h2>
-</div>
-  <form id="query" action="index.html" method="post">
+      <h1><img src="images/js.png" height=50 alt="js"><br>JavaScript Quiz</h1>
+      <div class="instruction">
+        <h2>Read carefully through all the given questions and select a suitable answer from the multiple choices given below each question.<br>Ensure to answer <b>ALL</b> questions.</h2>
+      </div>
+    </div>
     <div class="body">
-      <div class="question"
-        <h2>Javascript was designed by____________.<h2>
-      <div class="radio">
-        <input type="radio" name="q1" value="20">
-        Brendan Eich
-      </div>
-      <div class="radio">
-        <input type="radio" name="q1" value="0">
-        Konrad Zuse
-      </div>
-      <div class="radio">
-        <input type="radio" name="q1" value="0">
-        Corrado Bohm
-      </div>
-      <div class="radio">
-        <input type="radio" name="q1" value="0">
-        Alonzo Church
-      </div>
-        <h2>Javascript was first released in the year____________.</h2>
-      <div class="radio">
-        <input type="radio" name="q2" value="0">
-        2018
-      </div>
-      <div class="radio">
-        <input type="radio" name="q2" value="0">
-        2000
-      </div>
-      <div class="radio">
-        <input type="radio" name="q2" value="0">
-        1998
-      </div>
-      <div class="radio">
-        <input type="radio" name="q2" value="20">
-        1995
-      </div>
-        <h2>Javascript is a ___________ language.</h2>
-      <div class="radio">
-        <input type="radio" name="q3" value="0">
-        Application
-      </div>
-      <div class="radio">
-        <input type="radio" name="q3" value="0">
-        Scripting
-      </div>
-      <div class="radio">
-        <input type="radio" name="q3" value="20">
-        Programming
-      </div>
-      <div class="radio">
-        <input type="radio" name="q3" value="0">
-        None of the above
-      </div>
-        <h2>Javascript is also known as ECMAscript.</h2>
-      <div class="radio">
-        <input type="radio" name="q4" value="20">
-        True
-      </div>
-      <div class="radio">
-        <input type="radio" name="q4" value="0">
-        False
-      </div>
-      <div class="radio">
-        <input type="radio" name="q4" value="0">
-        None of the above
-      </div>
-      <div class="radio">
-        <input type="radio" name="q4" value="0">
-        All the above
-      </div>
-        <h2>Javascript is enclosed in a "scripts" tag.</h2>
-      <div class="radio">
-        <input type="radio" name="q5" value="20">
-        True
-      </div>
-      <div class="radio">
-        <input type="radio" name="q5" value="0">
-        False
-      </div>
-      <div class="radio">
-        <input type="radio" name="q5" value="0">
-        None of the above
-      </div>
-      <div class="radio">
-        <input type="radio" name="q5" value="0">
-        All the above
-      </div>
-      <div class="btn">
-        <button type="Submit" name="submit" id=result class="btn btn-primary"><strong>Score</strong></button>
-      </div>
+      <form id="query" action="index.html" method="post">
+        <div class="question">
+          <h2>Javascript was designed by____________.</h2>
+          <input type="radio" name="q1" value="20">
+          Brendan Eich<br>
+          <input type="radio" name="q1" value="0">
+          Konrad Zuse<br>
+          <input type="radio" name="q1" value="0">
+          Corrado Bohm<br>
+          <input type="radio" name="q1" value="0">
+          Alonzo Church<br>
+          <h2>Javascript was first released in the year____________.</h2>
+          <input type="radio" name="q2" value="0">
+          2018<br>
+          <input type="radio" name="q2" value="0">
+          2000<br>
+          <input type="radio" name="q2" value="0">
+          1998<br>
+          <input type="radio" name="q2" value="20">
+          1995<br>
+          <h2>Javascript is a ___________ language.</h2>
+          <input type="radio" name="q3" value="0">
+          Application<br>
+          <input type="radio" name="q3" value="0">
+          Scripting<br>
+          <input type="radio" name="q3" value="20">
+          Programming<br>
+          <input type="radio" name="q3" value="0">
+          None of the above<br>
+          <h2>Javascript is also known as ECMAscript.</h2>
+          <input type="radio" name="q4" value="20">
+          True<br>
+          <input type="radio" name="q4" value="0">
+          False<br>
+          <input type="radio" name="q4" value="0">
+          None of the above<br>
+          <input type="radio" name="q4" value="0">
+          All the above<br>
+          <h2>Javascript is enclosed in a "scripts" tag.</h2>
+          <input type="radio" name="q5" value="20">
+          True<br>
+          <input type="radio" name="q5" value="0">
+          False<br>
+          <input type="radio" name="q5" value="0">
+          None of the above<br>
+          <input type="radio" name="q5" value="0">
+          All the above<br>
+          <div class="btn">
+            <button type="Submit" name="submit" id=result class="btn btn-primary"><strong>Score</strong></button>
+          </div>
+        </div>
     </div>
-    </div>
-    </div>
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-      <script src="js/scripts.js"></script>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>

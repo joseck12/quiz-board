@@ -4,6 +4,8 @@
   color: red;
   border-radius: 20px;
   padding: 1 0 1 0;
+  background-color: pink;
+  font-size: 15px;
 }
 
 .body{
@@ -12,6 +14,8 @@
   border: 2 2 2 2;
   border-radius: 20px;
   margin-top: 5px;
+  background-color: red;
+  font-size: 15px;
 }
 
 .question{
@@ -24,4 +28,8 @@
   margin-right: 20%;
   margin-top: 10px;
   margin-bottom: 10px;
+  background-color: blue;
+}
+h2{
+  font-size: 15px:
 }
